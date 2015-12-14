@@ -1,0 +1,115 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    title Awesome Landing Page
+    link(rel="stylesheet" type="text/css" href="css/style.css")
+    link(href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css")
+    
+  body
+    header
+      #header-container
+        .col-3
+          img(src="images/logodark.png" height="18px" width="143px").logo
+
+        .col-3
+          nav
+            ul.menu
+              - list = ["Home", "Feature", "About", "Signup"]
+              each item in list
+                li= item
+              
+        .col-3
+          a(href="#").getStartedBTN Get Started
+
+
+    .main-container
+      #top-section-main
+        #top-section-content
+          h1 Awesome looks so good
+          p Awesome is the landing page you wish you had when you started
+          img(src="images/play.png" height="120px" width="120px").play-button
+          .main-form
+            form
+              h6 SIGN UP FOR A FREE 30 DAY TRIAL
+              input(type="text" name="name" placeholder="Name")
+              input(type="text" name="email" placeholder="Email")
+              button(style="trial" type="submti" value="submit") Start Free Trial
+      
+      #top-feature-section
+        h1.feature-section-title awesome is an amazing landing page brought to you on everyone's favorite platform, #[span(style="background-color:#6dc77a; color:#ffffff; padding:2px;") Udemy]. Imagine what is next.
+          
+        .feature-content
+          .col-3
+            img(src="images/couple.jpg")
+            h3 Mobile First, Always
+            p Lorem ipsum dolor sit amet, consectetur adipiscine elit. Prasent ultrices at massa nec imperdiet. Ut tempor augue tincindunt odio luctus, non tempor sem cursus. Proin.
+            
+          .col-3
+            img(src="images/guyrunning.jpg")
+            h3 HTML5 & CSS
+            p Lorem ipsum dolor sit amet, consectetur adipiscine elit. Prasent ultrices at massa nec imperdiet. Ut tempor augue tincindunt odio luctus, non tempor sem cursus. Proin.
+            
+          .col-3
+            img(src="images/girlphone.jpg")
+            h3 Socially Social
+            p Lorem ipsum dolor sit amet, consectetur adipiscine elit. Prasent ultrices at massa nec imperdiet. Ut tempor augue tincindunt odio luctus, non tempor sem cursus. Proin.
+            
+      #showcase1-container
+        .showcase
+          .col-2
+            img(src="images/apple.png").showcase1pic
+            
+          .col-2
+            .feature-text
+              h1.section-title Yes, it even looks good on an iPhone
+              p.section-left It is important to make sure that you are coding for responsive design. we want all of our work to function properly on all devices. This is the awesome way.
+              
+      #showcase2-container
+        .showcase
+          .col-2
+            .feature-text
+              h1.section-title How about an iPad? Yup that too
+              p.section-left It doesn't matter what device you are on. Awesome will always look awesome. Its in the name after all
+              
+          .col-2
+            img(src="images/ipad.png").showcase1pic
+            
+      #call-to-action
+        .showcase
+          .col-1
+            h1.action-title What are you waiting for?
+            p Get started today and try for free - No credit car required
+            p(style="text-align"): a(href="#").signupBTN Try Today
+            
+      #signup
+        .col-2
+          .top-margin
+            h1(style="text-align:left;").section-title Hear what our fans have to say about awesome
+            p(style="font-style:italic;").section-left "I learned how to build this website in an amazing online course on Udemy. I couldn't be happier"
+            
+        .col-2
+          form.signupform
+            h6 SIGN UP FOR A FREE 30 DAY TRIAL
+            input(type="text" name="name" placeholder="Name")
+            input(type="email" name="email" placeholder="Email")
+            button(style="trial" type="submit" value="submit") Start Free Trial
+            p(style="font-size:11px;") * We don't share your personal info with anyone. Check out our #[a(href="#") Privacy Policy] for more information.
+          
+        
+    footer
+      .social-footer
+        .center
+          img(src="images/twitter.png" alt="twitter" height="48px" width="55px")
+          
+      .social-footer
+        .center
+          img(src="images/facebook.png" alt="facebook" height="55px" width="28px")
+          
+      .social-footer
+        .center
+          img(src="images/instagram.png" alt="instagram" height="52px" width="52px")
+          
+      p(style="text-align:center; padding-top:300px;")
+        img(src="images/logolight.png" width="143px" height="18px")
+      span.copyright &copy; Copyright 2015 Awesome - Made with &hearts; in New York
