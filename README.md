@@ -4,6 +4,9 @@
 ## HTML
 - XML For Absolute Beginners 22/01/2016 | UC-HWG6N11S
 
+## Design
+- Canva for Beginners - Design like a Pro 22/01/2016 | UC-3MCJ6WIY
+
 ## JavaScript
 - JSON For Beginners 22/01/2016 | UC-QUXS0EER
 
