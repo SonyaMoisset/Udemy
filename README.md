@@ -1,6 +1,9 @@
 # Udemy
 ### Udemy curriculum | Completed courses: | Certificates:
 
+## HTML
+- XML For Absolute Beginners 22/01/2016 | UC-HWG6N11S
+
 ## JavaScript
 - JSON For Beginners 22/01/2016 | UC-QUXS0EER
 
