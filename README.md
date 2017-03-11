@@ -12,6 +12,7 @@
 
 ## React
 - React Tooling and Development Workflow in Action 20/01/2016 | UC-AWGWH83R
+- React JS and Redux - Mastering Web Apps 11/03/2017 | UC-2RFLDK9X
 
 ## Databases
 - Introduction to Basic Database Concepts 22/01/2015 | UC-53EO914J
